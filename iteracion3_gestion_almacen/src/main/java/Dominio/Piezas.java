@@ -1,5 +1,18 @@
 package Dominio;
 
+/**
+* Clase: Pedido
+* Atributos:
+*	* int _id;
+	* String _nombre;
+	* double _precio;
+	* String _descripcion;
+	* int _stock;
+	* int _nMax;
+***********************
+* Autor/a: Julio Alberto Burgos Roma
+*/
+
 public class Piezas {
 	private int _id;
 	private String _nombre;
@@ -8,51 +21,57 @@ public class Piezas {
 	private int _stock;
 	private int _nMax;
 
-	public void setId(int aId) {
-		this._id = aId;
+	public Piezas() {
+		throw new UnsupportedOperationException();
 	}
 
-	public int getId() {
-		return this._id;
+	public int get_id() {
+		return _id;
 	}
 
-	public void setNombre(String aNombre) {
-		this._nombre = aNombre;
+	public void set_id(int _id) {
+		this._id = _id;
 	}
 
-	public String getNombre() {
-		return this._nombre;
+	public String get_nombre() {
+		return _nombre;
 	}
 
-	public void setPrecio(double aPrecio) {
-		this._precio = aPrecio;
+	public void set_nombre(String _nombre) {
+		this._nombre = _nombre;
 	}
 
-	public double getPrecio() {
-		return this._precio;
+	public double get_precio() {
+		return _precio;
 	}
 
-	public void setDescripcion(String aDescripcion) {
-		this._descripcion = aDescripcion;
+	public void set_precio(double _precio) {
+		this._precio = _precio;
 	}
 
-	public String getDescripcion() {
-		return this._descripcion;
+	public String get_descripcion() {
+		return _descripcion;
 	}
 
-	public void setStock(int aStock) {
-		this._stock = aStock;
+	public void set_descripcion(String _descripcion) {
+		this._descripcion = _descripcion;
 	}
 
-	public int getStock() {
-		return this._stock;
+	public int get_stock() {
+		return _stock;
 	}
 
-	public void setNMax(int aNMax) {
-		this._nMax = aNMax;
+	public void set_stock(int _stock) {
+		this._stock = _stock;
 	}
 
-	public int getNMax() {
-		return this._nMax;
+	public int get_nMax() {
+		return _nMax;
 	}
+
+	public void set_nMax(int _nMax) {
+		this._nMax = _nMax;
+	}
+
+	
 }
