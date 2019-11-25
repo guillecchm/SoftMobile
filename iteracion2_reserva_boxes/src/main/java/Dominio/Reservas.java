@@ -1,10 +1,23 @@
 package Dominio;
 
+/**
+* Clase: Reservas
+* Atributos: 
+		* int _id
+		* timestamp _fecha_ini
+		* timestamp _fecha_fin
+		* String _dniCliente
+		* Mecanicos _mecanico
+		* Box _box
+* 
+***********************
+* Autor/a: Julio Alberto Burgos Roma
+**/
 
 public class Reservas {
 	private int _id;
-	private String _fecha_ini;
-	private String _fecha_fin;
+	private timestamp _fecha_ini;
+	private timestamp _fecha_fin;
 	private String _dniCliente;
 	private Mecanicos _mecanico;
 	private Box _box;
@@ -21,19 +34,19 @@ public class Reservas {
 		this._id = _id;
 	}
 
-	public String get_fecha_ini() {
+	public timestamp get_fecha_ini() {
 		return _fecha_ini;
 	}
 
-	public void set_fecha_ini(String _fecha_ini) {
+	public void set_fecha_ini(timestamp _fecha_ini) {
 		this._fecha_ini = _fecha_ini;
 	}
 
-	public String get_fecha_fin() {
+	public timestamp get_fecha_fin() {
 		return _fecha_fin;
 	}
 
-	public void set_fecha_fin(String _fecha_fin) {
+	public void set_fecha_fin(timestamp _fecha_fin) {
 		this._fecha_fin = _fecha_fin;
 	}
 
@@ -61,5 +74,4 @@ public class Reservas {
 		this._box = _box;
 	}
 
-	
 }
