@@ -1,11 +1,10 @@
 package Dominio;
 
+import java.security.Timestamp;
 import java.util.Vector;
 
 /**
 * Clase: GestorBoxes
-* Atributos: 
-		* 
 * Métodos:
 		* getBox()
 		* obtenerBoxLibre(timestamp aFecha)
@@ -15,7 +14,6 @@ import java.util.Vector;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class GestorBoxes {
 	
 	/**
@@ -24,7 +22,6 @@ public class GestorBoxes {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-
 	public Vector<Box> getBoxes() {
 		throw new UnsupportedOperationException();
 	}
@@ -35,8 +32,7 @@ public class GestorBoxes {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
-	public Box obtenerBoxLibre(timestamp aFecha) {
+	public Box obtenerBoxLibre(Timestamp aFecha) {
 		throw new UnsupportedOperationException();
 	}
 	
@@ -46,7 +42,6 @@ public class GestorBoxes {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-
 	public Vector<Box> getBoxesAsignados(String aDNI) {
 		throw new UnsupportedOperationException();
 	}
@@ -57,7 +52,6 @@ public class GestorBoxes {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
 	public boolean setBox(int aId, int aEstado) {
 		throw new UnsupportedOperationException();
 	}

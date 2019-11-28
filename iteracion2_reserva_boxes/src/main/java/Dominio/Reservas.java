@@ -1,5 +1,7 @@
 package Dominio;
 
+import java.security.Timestamp;
+
 /**
 * Clase: Reservas
 * Atributos: 
@@ -13,11 +15,10 @@ package Dominio;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class Reservas {
 	private int _id;
-	private timestamp _fecha_ini;
-	private timestamp _fecha_fin;
+	private Timestamp _fecha_ini;
+	private Timestamp _fecha_fin;
 	private String _dniCliente;
 	private Mecanicos _mecanico;
 	private Box _box;
@@ -34,19 +35,19 @@ public class Reservas {
 		this._id = _id;
 	}
 
-	public timestamp get_fecha_ini() {
+	public Timestamp get_fecha_ini() {
 		return _fecha_ini;
 	}
 
-	public void set_fecha_ini(timestamp _fecha_ini) {
+	public void set_fecha_ini(Timestamp _fecha_ini) {
 		this._fecha_ini = _fecha_ini;
 	}
 
-	public timestamp get_fecha_fin() {
+	public Timestamp get_fecha_fin() {
 		return _fecha_fin;
 	}
 
-	public void set_fecha_fin(timestamp _fecha_fin) {
+	public void set_fecha_fin(Timestamp _fecha_fin) {
 		this._fecha_fin = _fecha_fin;
 	}
 

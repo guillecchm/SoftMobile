@@ -1,5 +1,14 @@
 package Presentacion;
 
+/**
+* Clase: IU_AñadirPiezas
+* Métodos:
+	* cerrarVentana()
+	* abrirVentanaPedirPiezas()
+	* abrirVentanaAñadirPiezas() 
+***********************
+* Autor/a: Julio Alberto Burgos Roma
+*/
 public class IU_MozoAlmacen {
 
 	/**
@@ -13,7 +22,7 @@ public class IU_MozoAlmacen {
 	}
 
 	/**
-	* Método: abrirVentanaPedirPiezas
+	* Método: abrirVentanaPedirPiezas()
 	* Descripción: Permite abrir la interfaz de pedir piezas utilizada por el mozo
 	* de almacén para realizar los pedidos.
 	***********************

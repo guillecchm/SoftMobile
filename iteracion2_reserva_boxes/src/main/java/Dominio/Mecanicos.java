@@ -13,7 +13,6 @@ package Dominio;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class Mecanicos {
 	private String _nombre;
 	private String _apellidos;

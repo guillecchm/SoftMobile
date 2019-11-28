@@ -3,10 +3,10 @@ package Dominio;
 /**
 * Clase: GestorPedidos
 * Métodos:
-*	* mododificarNPiezas
-*	* obtenerListadoPiezas
-*	* pedirPiezasRecambio
-*	* confirmarListaPiezas
+	* mododificarNPiezas(int aIdPieza, int aNPiezas)
+	* obtenerListadoPiezas()
+	* pedirPiezasRecambio(Object[] aPedidoPieza)
+	* confirmarListaPiezas(Object[] aPedidoPieza)
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 */
@@ -24,7 +24,7 @@ public class GestorPiezas {
 	}
 
 	/**
-	* Método: obtenerListadoPiezas
+	* Método: obtenerListadoPiezas()
 	* Descripción: Obtener el listado de piezas del stock del almacen
 	* que se encuentran por debajo del umbral de calidad.
 	***********************
@@ -35,7 +35,7 @@ public class GestorPiezas {
 	}
 
 	/**
-	* Método: pedirPiezasRecambio
+	* Método: pedirPiezasRecambio(Object[] aPedidoPieza)
 	* Descripción: Permite al mecánico pedir una lista de piezas al almacén.
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
@@ -45,7 +45,7 @@ public class GestorPiezas {
 	}
 
 	/**
-	* Método: confirmarListaPiezas
+	* Método: confirmarListaPiezas(Object[] aPedidoPieza)
 	* Descripción: Permite al mecánico confirmar la lista de piezas previamente
 	* solicitada.
 	***********************

@@ -3,13 +3,12 @@ package Dominio;
 /**
 * Clase: Pedido
 * Atributos:
-*	* int _id
-*	*double _precio_Total
-*	* Vector _pedidos
+	* int _id
+	* double _precio_Total
+	* Vector _pedidos
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 */
-
 public class Pedido {
 	private int _id;
 	private double _precio_Total;
