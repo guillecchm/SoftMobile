@@ -15,11 +15,6 @@ package Presentacion;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
-
-
-
-
 public class IU_Login {
 
 	/**
@@ -39,22 +34,17 @@ public class IU_Login {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
-	
-	
 	public void loguearse() {
 		throw new UnsupportedOperationException();
 	}
 
+	
 	/**
 	* Método: abrirVentanaJefeTaller()
 	* Descripción: Abre la interfaz jefe taller
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
-	
-	
 	private void abrirVentanaJefeTaller() {
 		throw new UnsupportedOperationException();
 	}
@@ -65,9 +55,6 @@ public class IU_Login {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
-	
-	
 	private void abrirVentanaMozoAlmacen() {
 		throw new UnsupportedOperationException();
 	}
@@ -79,9 +66,6 @@ public class IU_Login {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
-	
-	
 	public void abrirVentanaMecanico(String aDNI) {
 		throw new UnsupportedOperationException();
 	}

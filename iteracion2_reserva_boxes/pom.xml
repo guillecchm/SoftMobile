@@ -5,11 +5,11 @@
   <parent>
     <groupId>SoftMobile</groupId>
     <artifactId>Practicas</artifactId>
-    <version>1.4</version>
+    <version>1.5</version>
   </parent>
   <groupId>SoftMobile</groupId>
   <artifactId>iteracion2_reserva_boxes</artifactId>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <name>iteracion2_reserva_boxes</name>
   <url>http://maven.apache.org</url>
   <properties>

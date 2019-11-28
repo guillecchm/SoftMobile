@@ -1,5 +1,15 @@
 package Presentacion;
 
+
+/**
+* Clase: IU_PedirPiezas
+* Métodos:
+	* cerrarVentana()
+	* pedirPieza()
+	* consultarListaPiezas()
+***********************
+* Autor/a: Julio Alberto Burgos Roma
+*/
 public class IU_PedirPiezas {
 
 	/**

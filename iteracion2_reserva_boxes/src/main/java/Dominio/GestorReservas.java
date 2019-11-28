@@ -2,15 +2,12 @@ package Dominio;
 
 /**
 * Clase: GestorReservas
-* Atributos: 
-		* 
 * Métodos:
 		* crearReserva()
 * 
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class GestorReservas {
 
 	/**
@@ -19,7 +16,6 @@ public class GestorReservas {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-	
 	public String crearReserva() {
 		throw new UnsupportedOperationException();
 	}

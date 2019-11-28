@@ -6,24 +6,14 @@ package Dominio;
 		* int _id
 		* int _estado
 * Métodos:
-		* Box()
 		* set_Estado(int aEstado)
-		* getID()
 * 
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class Box {
 	private int _id;
 	private int _estado;
-	
-	/**
-	* Método: Box()
-	* Descripción: Constructor de la clase Box
-	***********************
-	* Autor/a: Julio Alberto Burgos Roma
-	**/
 
 	public Box() {
 		throw new UnsupportedOperationException();
@@ -35,19 +25,23 @@ public class Box {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-
 	public void set_Estado(int aEstado) {
 		throw new UnsupportedOperationException();
 	}
-	
-	/**
-	* Método: getId()
-	* Descripción: Devuele el Id de un Box
-	***********************
-	* Autor/a: Julio Alberto Burgos Roma
-	**/
 
-	public int getId() {
-$operation.getReference().prepare($args.get("property"))		return this._id;
+	public int get_id() {
+		return _id;
+	}
+
+	public void set_id(int _id) {
+		this._id = _id;
+	}
+
+	public int get_estado() {
+		return _estado;
+	}
+
+	public void set_estado(int _estado) {
+		this._estado = _estado;
 	}
 }

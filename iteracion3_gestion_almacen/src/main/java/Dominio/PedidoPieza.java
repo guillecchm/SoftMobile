@@ -3,12 +3,11 @@ package Dominio;
 /**
 * Clase: Pedido
 * Atributos:
-*	* int _id_Pieza
-*	* int _n_Pieza
+	* int _id_Pieza
+	* int _n_Pieza
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 */
-
 public class PedidoPieza {
 	private int _id_Pieza;
 	private int _n_Pieza;

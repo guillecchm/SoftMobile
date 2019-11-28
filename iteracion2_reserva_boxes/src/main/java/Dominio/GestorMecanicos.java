@@ -1,5 +1,7 @@
 package Dominio;
 
+import java.security.Timestamp;
+
 /**
 * Clase: GestorMecanicos
 * Atributos: 
@@ -10,7 +12,6 @@ package Dominio;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
 public class GestorMecanicos {
 	
 	/**
@@ -19,8 +20,7 @@ public class GestorMecanicos {
 	***********************
 	* Autor/a: Julio Alberto Burgos Roma
 	**/
-
-	public Mecanico obtenerMecanicoDisponible(timestamp aFecha) {
+	public Mecanicos obtenerMecanicoDisponible(Timestamp aFecha) {
 		throw new UnsupportedOperationException();
 	}
 }

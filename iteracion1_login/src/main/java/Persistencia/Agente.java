@@ -20,8 +20,6 @@ import java.util.Vector;
 ***********************
 * Autor/a: Julio Alberto Burgos Roma
 **/
-
-
 public class Agente {
 	protected Connection _mbd;
 	public Agente agente;
